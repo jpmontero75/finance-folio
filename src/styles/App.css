@@ -1,0 +1,16 @@
+:root {
+  /* --primary: #0D0A0B; */
+  --primary: #000958;
+  /* --secondary: #454955; */
+  --secondary: #224b73;
+  --terciary: #F3EFF5;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+  

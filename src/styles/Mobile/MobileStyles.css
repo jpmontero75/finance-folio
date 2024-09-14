@@ -1,0 +1,132 @@
+.mobileMainContainer {
+  width: 100%;
+  height: 100vh;
+}
+.mobileActualHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+.mobileIncome {
+  width: 45%;
+}
+.mobileExpenses {
+  width: 55%;
+  font-size: 0.8em;
+}
+.actualData {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 35px;
+}
+.chartContainer {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.L1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.values {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.mobileExpensesContainer {
+  width: 100%;
+  height: 100vh;
+}
+.mobileExpensesHeader {
+  height: 10%;;
+  display: flex;
+  align-items: center;
+  padding: 45px 15px;
+  gap: 85px;
+}
+.mobileExpensesTable {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mobileTableHeader {
+  width: 90%;
+  height: 6%;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary);
+  color: white;
+  border-bottom: 1px solid black;
+  padding: 0px 10px;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 0.7em;
+}
+.mobileTableContent {
+  width: 90%;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.mobileTableContent::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Edge */
+}
+.mobileTableRow {
+  width: 100%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr 1fr 1fr;
+  grid-auto-rows: min-content;
+  font-size: 0.9em;
+  border-bottom: 1px solid black;
+  align-items: center;
+}
+.mobileTableRow > div, .mobileTableRow > p {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  word-wrap: break-word; 
+  white-space: normal; 
+}
+/* .tableRow:nth-child(even) {
+  background-color: #ccc;
+} */
+.mobileTableRow p:nth-child(1) {
+  padding-left: 5px;
+}
+.mobileActionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.mobileNoExpenses {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobileHeaderMainContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--primary);
+  color: #fff;
+}
